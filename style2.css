@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  background-color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #D5B460;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+header .logo {
+  display: flex;
+}
+header .logo h1 {
+  display: flex;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 800;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #222;
+}
+header img {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container .text-container {
+  width: 70%;
+  margin: 1rem;
+  padding: 1rem;
+}
+.container .text-container h1 {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}
+.container .text-container h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+  color: #D5B460;
+}
+.container .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  padding: 2rem;
+}
+.container video {
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: #D5B460 9px 7px 4px 5px;
+}
+.container .sobre-contain {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.container .text-sobre h1 {
+  display: flex;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4rem;
+  overflow: hidden;
+}
+.container .img-contain img {
+  width: 40vw;
+}
+.container .text-frase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  padding: 0;
+  gap: 1.5rem;
+  margin-top: 5rem;
+  margin: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+.container .text-frase h1 {
+  width: 100%;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .text-frase > .frase3 {
+  color: #D5B460;
+}
+.container .botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+.container button {
+  padding: 2rem 5rem;
+  border-radius: 0.8rem;
+  background-color: #D5B460;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: transparent;
+  border: 1px solid #D5B460;
+}
+.container button a {
+  color: #d9d9d9;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+.container button a:hover {
+  color: #fff;
+}
+@media (max-width: 30rem) {
+  .container .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .container .text-sobre {
+    display: flex;
+    flex-direction: column;
+    width: 1%;
+  }
+  .container .img-contain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .container .text-sobre h1 {
+    font-size: 3rem;
+  }
+  .container video {
+    width: 110%;
+    box-shadow: #D5B460 3px 2px 0px 0px;
+  }
+  .container button {
+    padding: 0.7rem 0.7rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .container {
+    padding: 0rem;
+  }
+  .text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .text-container h1 {
+    font-size: 1rem;
+    word-break: break-all;
+    width: 140%;
+    display: flex;
+    justify-content: center;
+  }
+  .img-contain {
+    display: flex;
+    justify-content: center;
+  }
+  .text-container h2 {
+    font-size: 1rem;
+    word-break: break-all;
+    width: 140%;
+    display: flex;
+    justify-content: center;
+  }
+  .text-sobre {
+    display: flex;
+    flex-direction: column;
+    width: 1%;
+  }
+  .logo h1 {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  header {
+    padding: 1rem 0rem;
+  }
+}
+@media (max-width: 25.938rem) {
+  .text-sobre {
+    display: flex;
+    flex-direction: column;
+    width: 1%;
+  }
+  .text-sobre h1 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    width: 5%;
+  }
+  .img-contain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .img-contain img {
+    width: 70vw;
+  }
+  .text-frase {
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-frase h1 {
+    width: 140%;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #3E2A0E;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}/*# sourceMappingURL=style2.css.map */

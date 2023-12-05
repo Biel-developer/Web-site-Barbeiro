@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="icon" href="" type="image/icon">
+    <meta name="description" content="Site portigólio">
+</head>
+<body>
+
+    <!-- navbar do site -->
+    <header>
+        <div class="logo"><h1>Barbearia</h1></div>
+        <div class="hamburguer active"></div>
+        <div class="menu active">
+            <ul>
+                <li class="inicio"><a href="">Inicio</a></li>
+                <li class="serviços"><a href="#">Serviços</a></li>
+                <li class="barbeiros"><a href="#equip">Barbeiros</a></li>
+                <li class="cursos"><a href="#curso">Cursos</a></li>
+            </ul>
+        <div class="buttons">
+            <button class="cadastrar"><a href="">Cadastrar</a></button>
+            <button class="login"><a href="">Login</a></button>
+        </div>
+    </header>
+
+    <!-- fim navbar  -->
+
+    <!-- inicio banner inicial -->
+    <main>
+        <div class="container">
+            <div class="text-banner">
+                <h1>VAMOS MANTER VOCÊ COM UM VISUAL IMPECAVEL</h1>
+                <p> Nossa missão é elevar a confiança e o estilo de nossos clientes por meio
+                    de cortes de cabelo e barbas excepcionais, em um ambiente acolhedor e comprometido com a excelência.</p>
+                    <div class="botao">
+                        <button class="botao-link"><a href="">Acessar nosso instagram</a></button>
+                    </div>
+            </div>
+            
+            <div class="img-banner">
+                <img src="/img/barbeiro-banner.png" alt="">
+            </div>
+        </div>
+    </main>
+    <!-- fim banner inicial -->
+
+    <!-- inicio equipe -->
+    <section class="equip" id="equip">
+        <div class="contain">
+            <div class="card-equip">
+                <img src="../img/pessoa-1.png" alt="">
+                <div class="text-name">
+                    <p>Matheus</p>
+                </div>
+            </div>
+            <div class="card-equip">
+                <img src="../img/pessoa-2.png" alt="">
+                <div class="text-name">
+                    <p>Marcos</p>
+                </div>
+            </div>
+            <div class="card-equip">
+                <img src="../img/pessoa-3.png" alt="">
+                <div class="text-name">
+                    <p>Eduardo</p>
+                </div>
+            </div>
+            <div class="card-equip">
+                <img src="../img/pessoa-4.png" alt="">
+                <div class="text-name">
+                    <p>Leonardo</p>
+                </div>
+            </div>
+            <div class="card-equip">
+                <img src="../img/pessoa-5.png" alt="">
+                <div class="text-name">
+                    <p>Robson</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  fim do codigo sobre equipe -->
+
+    <!-- inicio codigo sobre os anos da barbearia -->
+    <section class="contain-tempo" id="contain-tempo">
+        <div class="tempo-contain">
+            <div class="photo-barber">
+                <img src="../img/barbeiro-dono.png" alt="">
+            </div>
+            <div class="line-tempo">
+                <div class="card-tempo">
+                    <p>2019</p>
+                    <span>Fundamos a barbearia em (cidade).</span>
+                </div>
+
+                <div class="card-tempo">
+                    <p>2021</p>
+                    <span>Expandimos nossa equipe e agora somos 5 barbeiros profissionais.</span>
+                </div>
+
+                <div class="card-tempo">
+                    <p>2022</p>
+                    <span>Abrimos uma segunda barbearia em (cidade)
+                        para atender mais pessoas.</span>
+                </div>
+
+                <div class="card-tempo">
+                    <p>2023</p>
+                    <span>Estamos crescendo ainda mais pronto
+                        pra te deixar bonito.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fim do código  -->
+
+    <!-- inico do código de input e curso -->
+    <section class="curso" id="curso">
+        <div class="curso-contain">
+            <div class="img-curso">
+                <img src="/img/ef63edc365ada41933907927bd28265e 1.png" alt="">
+            </div>
+            <form action="Curso">
+                <div class="text-curso">
+                    <span>Inscreva-se</span>
+                </div>
+                <input type="text" mozactionhint="next" name="Nome" placeholder="Nome:" pattern="[a-z, A-Z]" required>
+                <input type="email" name="E-mail" placeholder="E-mail:" pattern="[@, A-Z, 1-10]" required>
+                <input type="number" name="Numero" placeholder="Número de Telefone:" required>
+                <button class="btn"><a href="">Enviar</a></button>
+            </form>
+        </div>
+        <div class="text-frase">
+            <p>Transforme sua paixão por cortes de cabelo em uma carreira de sucesso! Descubra o mundo da beleza capilar conosco na barbearia e torne-se um mestre na arte da hairstyling. Inscreva-se no nosso curso de cabelereiro e comece a esculpir o seu futuro hoje mesmo!</p>
+        </div>
+    </section>
+    <!-- fim do input e curso -->
+
+    <!-- inicio footer -->
+    <footer>© 2023 Gabriel Nascimento - Todos os direitos reservados.</footer>
+    <!-- fim footer -->
+
+    <script src="/script.js"></script>
+    
+</body>
+</html>
